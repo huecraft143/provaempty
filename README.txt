@@ -1,3 +1,4 @@
+# SOLO SE USATE IL CONTAINER DOCKER
 Primo comando da eseguire
 nasm -f elf32 sum.asm
 32 in quanto siamo a 32bit
