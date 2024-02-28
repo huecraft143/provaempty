@@ -4,11 +4,11 @@
 ; for converting decimal to ascii --> add '0'
 
 section .data
-msg db "sum: "
-len equ $ - msg
+msg db "sum: " ; msg -> variabile   db -> istruzione define byte
+len equ $ - msg  ; len -> variabile equ -> equal $ -> indirizzo dentro PC
 
 section .bss
-sum resb 1
+sum resb 1 ; sum -> variabile resb -> reserve byte 1 -> lunghezza in byte
 
 section .text
 global _start
